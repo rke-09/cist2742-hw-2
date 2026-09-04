@@ -1,0 +1,38 @@
+# Question 1
+# A program that converts distances in kilometers to smoots
+def main():
+    kilometers = float(input("What is the distance in kilometers? "))
+    smoots = kilometers * 214352.94
+    print("Your distance is", smoots, "smoots.")
+
+# Question 2
+# A program that converts distances in centimeters to mickeys
+
+def main():
+    centimeters = float(input("What is the distance in centimeters? "))
+    mickeys = centimeters * 160
+    print("Your distance is", mickeys, "mickeys.")
+
+# Question 3
+# A program that converts number of followers to wheatons
+
+def main():
+    followers = int(input("How many followers do you have? "))
+    wheaton = followers * 500000
+    print("Your followers amount to", wheaton, "wheatons.")
+
+# Question 4
+# A program that converts degrees celsius to the kelvin temperature scale
+
+def main():
+    celsius = float(input("What is the Celsius temperature? "))
+    kelvin = celsius + 273.15
+    print("The temperature is", kelvin, "degrees kelvin.")
+
+# Question 5
+# A program that degrees fahrenheit to the kelvin temperature scale
+
+def main():
+    fahrenheit = float(input("What is the temperature in fahrenheit? "))
+    kelvin = (fahrenheit - 32) * 5/9 + 273.15
+    print("The temperature is", kelvin, "degrees kelvin.")
